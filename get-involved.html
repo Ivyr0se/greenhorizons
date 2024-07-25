@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Horizons Foundation - Get Involved</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="get-involved.html">Get Involved</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Get Involved Section -->
+    <section class="get-involved">
+        <h1>Get Involved</h1>
+
+        <!-- Volunteer Sign-Up Form -->
+        <div class="volunteer-signup">
+            <h2>Volunteer With Us</h2>
+            <form action="submit-volunteer-form" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="interests">Interests:</label>
+                <textarea id="interests" name="interests" rows="4" required></textarea>
+
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+
+        <!-- Donation Form -->
+        <div class="donation-form">
+            <h2>Support Us</h2>
+            <form action="submit-donation-form" method="post">
+                <label for="donor-name">Name:</label>
+                <input type="text" id="donor-name" name="donor-name" required>
+
+                <label for="donor-email">Email:</label>
+                <input type="email" id="donor-email" name="donor-email" required>
+
+                <label for="donation-amount">Amount:</label>
+                <input type="number" id="donation-amount" name="donation-amount" step="0.01" min="1" required>
+
+                <button type="submit">Donate</button>
+            </form>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="social-media">
+            <h2>Follow Us</h2>
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Green Horizons Foundation. All rights reserved.</p>
+    </footer>
+</body>
+</html>
